@@ -4,7 +4,9 @@
 
 }
 
-/* #mainCard {
-    border: 2px solid black;
+.forecastBox {
+    border: 1px solid rgb(228, 209, 209);
     border-radius: 5px;
-} */
+    margin: 10px;
+}
+
