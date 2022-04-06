@@ -56,8 +56,8 @@ citySearchForm.addEventListener("submit", function () {
     var citySearch = document.querySelector("#cityInput").value.trim()
     console.log(citySearch)
 
-    var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + citySearch + "&appid=" + apiKey + "&units=imperial";
-    var forecastURL = "http://api.openweathermap.org/data/2.5/forecast?q=" + citySearch + "&appid=" + apiKey + "&units=imperial";
+    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + citySearch + "&appid=" + apiKey + "&units=imperial";
+    var forecastURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + citySearch + "&appid=" + apiKey + "&units=imperial";
 
     fetch(queryURL)
         .then(function (response) {
